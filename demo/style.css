@@ -1,0 +1,43 @@
+/* AJAX Tabs demo styles */
+
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}
+ul.nav-tabs {
+  list-style: none;
+}
+ul.nav-tabs li {
+  display: inline-block;
+}
+
+
+
+/* Housekeeping styles */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 14pt;
+  margin: 0;
+}
+#sidebar,
+#pane-container {
+  display: inline-block;
+  height: 100%;
+  position: absolute;
+}
+#sidebar {
+  border-right: 1px solid gray;
+  width: 25%;
+}
+#pane-container {
+  box-sizing: border-box;
+  left: 25%;
+  padding: 10px;
+  width: 75%;
+}

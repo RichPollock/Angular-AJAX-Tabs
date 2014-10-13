@@ -1,0 +1,6 @@
+<h1>Pane 3</h1>
+
+<tabs>
+	<pane ng-repeat="pane in panes | filter:{includedInTabView:true}" tab-title="{{pane.name}}" controller="{{pane.controller}}" template="{{pane.partial}}">
+	</pane>
+</tabs>

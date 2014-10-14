@@ -1,4 +1,4 @@
-angular-ajax-tabs
+Angular-AJAX-Tabs
 =================
 
 Reuse your AngularJS `ngRoute` view controllers and partial templates within a tabbed interface *inside another `ngView`*.

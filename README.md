@@ -42,8 +42,10 @@ $scope.panes = [{
   }]
 ```
 
-If some functionality should *only* appear when the partial template is being used inside a tab, the `isTabbedPane` property is set on the controller's scope, allowing HTML
+If some functionality should *only* appear when the partial template is being used inside a tab, the `isTabbedPane` property is set on the controller's scope, allowing HTML to be marked up as follows:
 
+```HTML
 <span ng-show="isTabbedPane">This will only appear when the template is inside a tab!</span>
+```
 
 The `controller` specified in the attribute needs to already exist beforehand; Angular AJAX Tabs won't instantiate controllers automatically.
